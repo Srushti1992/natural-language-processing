@@ -51,5 +51,3 @@ m = len(str2)
 dp = [[-1 for _ in range(m + 1)] for _ in range(n + 1)]
 			
 print(minDis(str1, str2, n, m, dp))
-
-# This code is contributed by divyesh072019.
